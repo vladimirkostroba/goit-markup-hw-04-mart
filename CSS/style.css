@@ -1,0 +1,75 @@
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+}
+
+:root {
+  --color-nav: #0f0101;
+  --change-link-color: #1abc9c;
+  --h2-color: #515151;
+  --gallery-text-color: #ffffff;
+  --gallery-text-back-color: #323232;
+  --gallery-prise-back-color: #8c8c8c;
+  --galley-prise-change-color: #7fd9c7;
+  --text-color: #555252;
+  --button-color: #4ec6ab;
+  --main-font: 'Roboto', sans-serif;
+  --second-font: 'Open Sans', sans-serif;
+}
+
+.container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.site-nav {
+  display: flex;
+}
+
+.site-nav.link {
+  display: block;
+  font-family: 'Roboto';
+  font-size: px;
+  line-height: 1.6;
+  font-weight: bold;
+  color: var(--color-nav);
+}
+
+.link {
+  font-size: 14px;
+  line-height: 1.6;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--change-link-color);
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.page-nav {
+  display: flex;
+  align-items: center;
+  margin-bottom: 105px;
+  margin-top: 20px;
+}
+
+.site-logo {
+  margin-right: auto;
+}
+
+.li {
+  'Roboto', sans-serif;
+}
