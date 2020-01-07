@@ -20,7 +20,7 @@ html {
 }
 
 .container {
-  width: 1170px;
+  width: 1110px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -31,10 +31,7 @@ html {
 
 .site-nav.link {
   display: block;
-  font-family: 'Roboto';
-  font-size: px;
   line-height: 1.6;
-  font-weight: bold;
   color: var(--color-nav);
 }
 
@@ -43,6 +40,7 @@ html {
   line-height: 1.6;
   padding-left: 16px;
   padding-right: 16px;
+  font-weight: 700;
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
   color: black;
@@ -62,14 +60,99 @@ html {
 .page-nav {
   display: flex;
   align-items: center;
-  margin-bottom: 105px;
-  margin-top: 20px;
+  margin-top: 40px;
+  margin-bottom: 110px;
 }
 
 .site-logo {
   margin-right: auto;
 }
 
-.li {
-  'Roboto', sans-serif;
+/*section1*/
+
+.title-first {
+  font-family: var(--main-font);
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--h2-color);
+  text-align: center;
+  margin-bottom: 130px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.featured-list-item {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 0;
+  flex-basis: calc(100% / 4 - 22.5px);
+  margin-bottom: 30px;
+}
+
+.featured-list-item:not(:nth-child(4n)) {
+  margin-right: 30px;
+}
+.featured-list-item:nth-last-child(-n + 4) {
+  margin-bottom: 0;
+}
+
+/*section2*/
+
+.information-list-item {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 0;
+  flex-basis: calc(100% / 3 - 20px);
+}
+
+.information-list-item.information-list-item:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+
+.title-second {
+  font-family: var(--main-font);
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--h2-color);
+  text-align: center;
+  margin-bottom: 130px;
+}
+
+.information-list {
+  display: flex;
+}
+
+.information-title {
+  font-size: 18px;
+  font-family: var(--second-font);
+  color: var(--text-color);
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.information-text {
+  font-size: 14px;
+  line-height: 26px;
+  font-family: var(--second-font);
+  color: var(--text-color);
+  margin-top: 45px;
+}
+
+.button {
+  width: 160px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--button-color);
+  color: #ffffff;
+  border-radius: 3px;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: var(--second-font);
 }
