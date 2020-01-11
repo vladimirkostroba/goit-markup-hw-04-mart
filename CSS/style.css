@@ -36,6 +36,7 @@ html {
 }
 
 .link {
+  display: block;
   font-size: 14px;
   line-height: 1.6;
   padding-left: 16px;
@@ -60,8 +61,8 @@ html {
 .page-nav {
   display: flex;
   align-items: center;
-  margin-top: 40px;
-  margin-bottom: 110px;
+  padding-top: 40px;
+  padding-bottom: 110px;
 }
 
 .site-logo {
@@ -72,6 +73,9 @@ html {
 .menu {
   display: flex;
   flex-wrap: wrap;
+}
+
+.section {
   margin-bottom: 105px;
 }
 
@@ -113,6 +117,7 @@ html {
   font-weight: 700;
   color: var(--h2-color);
   text-align: center;
+  margin: 0;
   margin-bottom: 130px;
 }
 
@@ -159,15 +164,6 @@ html {
   margin-right: 30px;
 }
 
-.title-second {
-  font-family: var(--main-font);
-  font-size: 48px;
-  font-weight: 700;
-  color: var(--h2-color);
-  text-align: center;
-  margin-bottom: 130px;
-}
-
 .information-list {
   display: flex;
 }
@@ -186,10 +182,9 @@ html {
   line-height: 26px;
   font-family: var(--second-font);
   color: var(--text-color);
-  margin-top: 45px;
 }
 
-.button {
+.information-list-link {
   width: 160px;
   height: 50px;
   display: flex;
