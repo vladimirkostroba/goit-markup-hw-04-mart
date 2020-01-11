@@ -198,3 +198,8 @@ html {
   line-height: 1.6;
   font-family: var(--second-font);
 }
+
+.information-list-link:hover,
+.information-list-link:focus {
+  color: var(--change-link-color);
+}
